@@ -13,6 +13,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.google.android.material.navigation.NavigationBarView;
 import com.uty.halodocrevisi.databinding.ActivityMainBinding;
 import com.uty.halodocrevisi.ui.home.FragmentHome;
 import com.uty.halodocrevisi.ui.notifikasi.FragmentNotifikasi;
@@ -29,13 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new FragmentHome()).commit();
         BottomNavigationView navView = findViewById(R.id.nav_view);
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
 
 //        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
-        getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new FragmentHome()).commit();
+
         navView.setOnItemSelectedListener(navListener);
 
     }
@@ -44,24 +45,27 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            Fragment selectedFragment = new FragmentHome();
-            int selectedItemId = BottomNavigationView.
-            System.out.println(selectedItemId);
-
-            if(item.getItemId() == R.id.navigation_Home){
+            Fragment selectedFragment = null;
+            System.out.println(item.getTitle());
+//            System.out.println(R.id.navigation_Home);
+//            System.out.println(R.id.navigation_Pesan);
+//            System.out.println(R.id.navigation_Notifikasi);
+//            System.out.println(R.id.navigation_Riwayat);
+            if(item.getTitle().equals("Home")){
                 selectedFragment = new FragmentHome();
                 System.out.println(selectedFragment);
-                System.out.println("bbb");
+                System.out.println("bbbbb");
             }
-            else if(item.getItemId() == R.id.navigation_Riwayat){
+            else if(item.getTitle().equals("Riwayat")){
                 selectedFragment = new FragmentRiwayat();
             }
-            else if(item.getItemId() == R.id.navigation_Pesan){
+            else if(item.getTitle().equals("Pesan")){
                 selectedFragment = new FragmentPesan();
             }
-            else if(item.getItemId() == R.id.navigation_Notifikasi){
+            else if(item.getTitle().equals("Notifikasi")){
                 selectedFragment = new FragmentNotifikasi();
             }
+
             getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, selectedFragment).commit();
             return true;
         }
