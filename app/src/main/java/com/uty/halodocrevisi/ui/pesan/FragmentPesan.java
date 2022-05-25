@@ -1,0 +1,37 @@
+package com.uty.halodocrevisi.ui.pesan;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
+
+import com.uty.halodocrevisi.databinding.FragmentPesanBinding;
+
+public class FragmentPesan extends Fragment {
+
+    private FragmentPesanBinding binding;
+
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+        ViewModelPesan ViewModelPesan =
+                new ViewModelProvider(this).get(ViewModelPesan.class);
+
+        binding = FragmentPesanBinding.inflate(inflater, container, false);
+        View root = binding.getRoot();
+
+        final TextView textView = binding.textPesan;
+        ViewModelPesan.getText().observe(getViewLifecycleOwner(), textView::setText);
+        return root;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
+}

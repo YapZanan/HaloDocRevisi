@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_Home" type="id" />
+    <item name="text_Riwayat" type="id" />
+    <item name="text_Pesan" type="id" />
+    <item name="text_Notifikasi" type="id" />
+</resources>

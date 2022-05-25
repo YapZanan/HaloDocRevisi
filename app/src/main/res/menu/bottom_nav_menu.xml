@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/beranda"
+        android:title="@string/navbar_Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/riwayat"
+        android:title="@string/navbar_Riwayat"
+        android:icon="@drawable/ic_riwayat"/>
+
+    <item
+        android:id="@+id/pesan"
+        android:title="@string/navbar_Pesan"
+        android:icon="@drawable/ic_pesan"/>
+
+    <item
+        android:id="@+id/notif"
+        android:title="@string/navbar_Notifikasi"
+        android:icon="@drawable/ic_notif"/>
+
+
+</menu>

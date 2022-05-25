@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HeyDoc</string>
+    <string name="navbar_Home">Home</string>
+    <string name="navbar_Riwayat">Riwayat</string>
+    <string name="navbar_Pesan">Pesan</string>
+    <string name="navbar_Notifikasi">Notifikasi</string>
+</resources>

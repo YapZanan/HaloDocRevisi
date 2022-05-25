@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Home">
+
+    <fragment
+        android:id="@+id/navigation_Home"
+        android:name="com.uty.halodocrevisi.ui.home.FragmentHome"
+        android:label="@string/navbar_Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_Riwayat"
+        android:name="com.uty.halodocrevisi.ui.riwayat.FragmentRiwayat"
+        android:label="@string/navbar_Riwayat"
+        tools:layout="@layout/fragment_riwayat" />
+
+    <fragment
+        android:id="@+id/navigation_Pesan"
+        android:name="com.uty.halodocrevisi.ui.notifikasi.FragmentNotifikasi"
+        android:label="@string/navbar_Pesan"
+        tools:layout="@layout/fragment_pesan" />
+
+    <fragment
+        android:id="@+id/navigation_Notifikasi"
+        android:name="com.uty.halodocrevisi.ui.notifikasi.FragmentNotifikasi"
+        android:label="@string/navbar_Notifikasi"
+        tools:layout="@layout/fragment_notifikasi" />
+</navigation>
