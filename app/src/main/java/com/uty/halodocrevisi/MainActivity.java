@@ -46,15 +46,9 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             Fragment selectedFragment = null;
-            System.out.println(item.getTitle());
-//            System.out.println(R.id.navigation_Home);
-//            System.out.println(R.id.navigation_Pesan);
-//            System.out.println(R.id.navigation_Notifikasi);
-//            System.out.println(R.id.navigation_Riwayat);
             if(item.getTitle().equals("Home")){
                 selectedFragment = new FragmentHome();
                 System.out.println(selectedFragment);
-                System.out.println("bbbbb");
             }
             else if(item.getTitle().equals("Riwayat")){
                 selectedFragment = new FragmentRiwayat();
