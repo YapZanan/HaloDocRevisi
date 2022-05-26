@@ -7,31 +7,31 @@
     android:useDefaultMargins="true">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/ibDokter"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
         android:src="@drawable/ic_dokter"/>
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/ibObat"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
-        android:src="@drawable/ic_dokter"/>
+        android:src="@drawable/ic_obat"/>
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/ibNote"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
-        android:src="@drawable/ic_dokter"/>
+        android:src="@drawable/ic_note"/>
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/ibCorona"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
-        android:src="@drawable/ic_dokter" />
+        android:src="@drawable/ic_corona" />
 
 </GridLayout>
