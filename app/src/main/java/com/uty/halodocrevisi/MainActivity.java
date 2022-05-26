@@ -31,15 +31,15 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new FragmentHome()).commit();
+
         BottomNavigationView navView = findViewById(R.id.nav_view);
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
-
-//        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
         navView.setOnItemSelectedListener(navListener);
-
     }
+
+
 
     private BottomNavigationView.OnItemSelectedListener navListener = new BottomNavigationView.OnItemSelectedListener(){
 
@@ -59,8 +59,9 @@ public class MainActivity extends AppCompatActivity {
             else if(item.getTitle().equals("Notifikasi")){
                 selectedFragment = new FragmentNotifikasi();
             }
+            Fragment simpan = selectedFragment;
 
-            getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, selectedFragment).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, selectedFragment).addToBackStack(null).commit();
             return true;
         }
     };
