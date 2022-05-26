@@ -24,8 +24,8 @@ public class FragmentNotifikasi extends Fragment {
         binding = FragmentNotifikasiBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifikasi;
-        ViewModelNotifikasi.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        final TextView textView = binding.textNotifikasi;
+//        ViewModelNotifikasi.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
