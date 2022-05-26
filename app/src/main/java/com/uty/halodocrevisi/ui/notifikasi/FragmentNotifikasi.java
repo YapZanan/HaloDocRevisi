@@ -16,12 +16,16 @@ public class FragmentNotifikasi extends Fragment {
 
     private FragmentNotifikasiBinding binding;
 
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        ViewModelNotifikasi notifikasiViewModel = new ViewModelProvider(this).get(ViewModelNotifikasi.class);
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+        ViewModelNotifikasi ViewModelNotifikasi =
+                new ViewModelProvider(this).get(ViewModelNotifikasi.class);
 
         binding = FragmentNotifikasiBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+//        final TextView textView = binding.textNotifikasi;
+//        ViewModelNotifikasi.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
