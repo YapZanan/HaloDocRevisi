@@ -4,34 +4,39 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
-    android:useDefaultMargins="true">
+    android:useDefaultMargins="true"
+    android:columnCount="4">
 
     <ImageButton
         android:id="@+id/ibDokter"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
-        android:src="@drawable/ic_dokter"/>
+        android:src="@drawable/ic_dokter"
+        android:layout_columnWeight="1"/>
 
     <ImageButton
         android:id="@+id/ibObat"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
-        android:src="@drawable/ic_obat"/>
+        android:src="@drawable/ic_obat"
+        android:layout_columnWeight="1"/>
 
     <ImageButton
         android:id="@+id/ibNote"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
-        android:src="@drawable/ic_note"/>
+        android:src="@drawable/ic_note"
+        android:layout_columnWeight="1"/>
 
     <ImageButton
         android:id="@+id/ibCorona"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
-        android:src="@drawable/ic_corona" />
+        android:src="@drawable/ic_corona"
+        android:layout_columnWeight="1"/>
 
 </GridLayout>
