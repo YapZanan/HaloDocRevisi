@@ -2,25 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/beranda"
+        android:id="@+id/navigation_Home"
         android:title="@string/navbar_Home"
         android:icon="@drawable/ic_home"/>
 
     <item
-        android:id="@+id/riwayat"
+        android:id="@+id/navigation_Riwayat"
         android:title="@string/navbar_Riwayat"
         android:icon="@drawable/ic_riwayat"/>
 
     <item
-        android:id="@+id/pesan"
+        android:id="@+id/navigation_Pesan"
         android:title="@string/navbar_Pesan"
         android:icon="@drawable/ic_pesan"/>
 
     <item
-        android:id="@+id/notif"
+        android:id="@+id/navigation_Notifikasi"
         android:title="@string/navbar_Notifikasi"
         android:icon="@drawable/ic_notif"/>
-
-
-
 </menu>

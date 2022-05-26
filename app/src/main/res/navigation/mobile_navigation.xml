@@ -8,33 +8,24 @@
     <fragment
         android:id="@+id/navigation_Home"
         android:name="com.uty.halodocrevisi.ui.home.FragmentHome"
-        android:label="@string/navbar_Home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_navigation_Home_to_navigation_Riwayat"
-            app:destination="@id/navigation_Riwayat"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:launchSingleTop="false"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
-    </fragment>
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_Riwayat"
         android:name="com.uty.halodocrevisi.ui.riwayat.FragmentRiwayat"
-        android:label="@string/navbar_Riwayat"
+        android:label="Riwayat"
         tools:layout="@layout/fragment_riwayat" />
 
     <fragment
         android:id="@+id/navigation_Pesan"
         android:name="com.uty.halodocrevisi.ui.notifikasi.FragmentNotifikasi"
-        android:label="@string/navbar_Pesan"
+        android:label="Pesan"
         tools:layout="@layout/fragment_pesan" />
 
     <fragment
         android:id="@+id/navigation_Notifikasi"
         android:name="com.uty.halodocrevisi.ui.notifikasi.FragmentNotifikasi"
-        android:label="@string/navbar_Notifikasi"
+        android:label="Notifikasi"
         tools:layout="@layout/fragment_notifikasi" />
 </navigation>

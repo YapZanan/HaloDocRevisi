@@ -16,16 +16,12 @@ public class FragmentPesan extends Fragment {
 
     private FragmentPesanBinding binding;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        ViewModelPesan ViewModelPesan =
-                new ViewModelProvider(this).get(ViewModelPesan.class);
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        ViewModelPesan notifikasiViewModel = new ViewModelProvider(this).get(ViewModelPesan.class);
 
         binding = FragmentPesanBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textPesan;
-        ViewModelPesan.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
