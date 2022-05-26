@@ -24,8 +24,6 @@ public class FragmentRiwayat extends Fragment {
         binding = FragmentRiwayatBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textRiwayat;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

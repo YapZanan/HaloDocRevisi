@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/navigation_Pesan"
-        android:name="com.uty.halodocrevisi.ui.notifikasi.FragmentNotifikasi"
+        android:name="com.uty.halodocrevisi.ui.pesan.FragmentPesan"
         android:label="Pesan"
         tools:layout="@layout/fragment_pesan" />
 
