@@ -22,6 +22,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/bg_rounded_trans.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/fragment_home.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/fragment_notifikasi.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/fragment_riwayat.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_grid.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/notifikasi_menu.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/notifikasi_menu_grid.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat.xml" value="0.22826086956521738" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list_grid2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list_grid3.xml" value="0.22826086956521738" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list_grid4.xml" value="0.1911231884057971" />
         <entry key="..\:/Users/naufa/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/drawable/bg_round_ijo.xml" value="0.3285" />
         <entry key="..\:/Users/naufa/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/drawable/bg_trans.xml" value="0.2305" />
         <entry key="..\:/Users/naufa/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/drawable/ic_dokter.xml" value="0.2305" />
