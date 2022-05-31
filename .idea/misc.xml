@@ -22,21 +22,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/bg_round_ijo.xml" value="0.167" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/bg_rounded_trans.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_home.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_jam.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_notif_pembaruan.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_pesan.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_home_layanan_dokter.xml" value="0.21105072463768115" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/fragment_home.xml" value="0.152" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/fragment_notifikasi.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/fragment_pesan.xml" value="0.12360688956433637" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/fragment_riwayat.xml" value="0.12360688956433637" />
-        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan.xml" value="0.12360688956433637" />
-        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_grid.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_header.xml" value="0.12360688956433637" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan.xml" value="0.264" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_online.xml" value="0.21105072463768115" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_online_grid.xml" value="0.21105072463768115" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_populer.xml" value="0.21105072463768115" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_populer_grid.xml" value="0.21105072463768115" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_populer_grid2.xml" value="0.21105072463768115" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_populer_grid3.xml" value="0.21105072463768115" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_search.xml" value="0.21105072463768115" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_grid.xml" value="0.264" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_rv.xml" value="0.21105072463768115" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_search.xml" value="0.1381340579710145" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/notifikasi_menu.xml" value="0.12360688956433637" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/notifikasi_menu_grid.xml" value="0.12360688956433637" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat.xml" value="0.22826086956521738" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list.xml" value="0.22826086956521738" />
-        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list_grid.xml" value="0.11302083333333333" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list_grid.xml" value="0.264" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list_grid2.xml" value="0.22826086956521738" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list_grid3.xml" value="0.22826086956521738" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/riwayat_list_grid4.xml" value="0.1911231884057971" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/naufa/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/drawable/bg_round_ijo.xml" value="0.3285" />
         <entry key="..\:/Users/naufa/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/drawable/bg_trans.xml" value="0.2305" />
         <entry key="..\:/Users/naufa/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/drawable/ic_dokter.xml" value="0.2305" />
