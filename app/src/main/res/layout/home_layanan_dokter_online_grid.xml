@@ -9,32 +9,32 @@
 
     <ImageView
         android:id="@+id/ivDokterOnline"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@color/white"
         android:src="@drawable/ic_docter_online"
         android:layout_columnWeight="1"/>
 
     <ImageView
         android:id="@+id/ivDokterOnline2"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@color/white"
         android:src="@drawable/ic_dokter_fem"
         android:layout_columnWeight="1"/>
 
     <ImageView
         android:id="@+id/ivDokterOnline3"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@color/white"
         android:src="@drawable/ic_docter_online"
         android:layout_columnWeight="1"/>
 
     <ImageView
         android:id="@+id/ivDokterOnline4"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@color/white"
         android:src="@drawable/ic_dokter_fem"
         android:layout_columnWeight="1"/>
