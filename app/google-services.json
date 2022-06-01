@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "64684143058",
+    "project_id": "iotdashboard-f762c",
+    "storage_bucket": "iotdashboard-f762c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64684143058:android:d613cd46244c8782f1180b",
+        "android_client_info": {
+          "package_name": "com.example.iotdashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64684143058-g0nmbtvkhdj99eruv2l0tlbtrv8dovii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_znWCQpBlWa8IoSQw-uF0VtujA73Z0W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64684143058-g0nmbtvkhdj99eruv2l0tlbtrv8dovii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64684143058:android:e7782952edfbd497f1180b",
+        "android_client_info": {
+          "package_name": "com.uty.halodocrevisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64684143058-g0nmbtvkhdj99eruv2l0tlbtrv8dovii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_znWCQpBlWa8IoSQw-uF0VtujA73Z0W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64684143058-g0nmbtvkhdj99eruv2l0tlbtrv8dovii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
