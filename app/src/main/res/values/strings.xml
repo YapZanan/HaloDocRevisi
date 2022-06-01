@@ -8,4 +8,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="namaPerusahaan">Untuk Hidup yang lebih baik</string>
+    <string name="pemanis">pemanis</string>
+    <string name="logo">Logo Perusahaan</string>
+    <string name="buttonNext">Next Button</string>
 </resources>

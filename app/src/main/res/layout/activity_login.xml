@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/hiasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:src="@drawable/shape" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="219dp"
+        android:layout_height="129dp"
+        android:layout_below="@id/hiasan"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo3" />
+
+    <TextView
+        android:id="@+id/namaPerusahaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/robotoregular"
+        android:text="@string/namaPerusahaan"
+        android:textColor="@color/ijoGakIjo"
+        android:textSize="12dp" />
+
+    <RelativeLayout
+        android:id="@+id/loginData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaPerusahaan"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_shape"
+        android:elevation="2dp">
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:inputType="textEmailAddress"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/login_edit"
+            android:drawableStart="@drawable/email__"
+            android:drawablePadding="10dp"
+            app:drawableTint="@color/secondarycolor"
+            android:elevation="5dp"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Email"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/TurnOff"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/loginEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/login_edit"
+            android:drawableStart="@drawable/password__"
+            android:drawablePadding="10dp"
+            android:elevation="5dp"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:paddingEnd="50dp"
+            android:textColor="@color/TurnOff"
+            android:textSize="16sp"
+            app:drawableTint="@color/secondarycolor" />
+
+        <ImageButton
+            android:id="@+id/eye"
+            android:onClick="ShowHidePass"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/eyeopen_"
+            android:background="?android:selectableItemBackground"
+            android:elevation="20dp"
+            android:layout_marginLeft="-68dp"
+            android:layout_alignBottom="@id/loginPassword"
+            android:layout_toEndOf="@id/loginPassword"
+            app:tint="@color/secondarycolor"/>
+
+        <Button
+            android:id="@+id/loginLupaPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@id/loginPassword"
+            android:layout_alignEnd="@id/loginPassword"
+            android:layout_marginTop="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:text="Lupa Password?"
+            android:textAlignment="center"
+            android:textColor="@color/TurnOff"
+            android:textSize="8sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginLupaPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/login_button"
+            android:elevation="8dp"
+            android:text="Login"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginBelumPunyaAkun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:elevation="20sp"
+            android:fontFamily="@font/robotomedium"
+            android:text="Belum punya akun? Buat"
+            android:textAllCaps="false"
+            android:textColor="@color/TurnOff"
+            android:textSize="10sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

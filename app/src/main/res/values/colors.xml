@@ -8,4 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ijoGakIjo">#89CACC</color>
+
+    <color name="basecolor">#89CACC</color>
+    <color name="secondarycolor">#5E8E8F</color>
+    <color name="thirdcolor">#B2B7BC</color>
+    <color name="complement">#F8F9FA</color>
+    <color name="complementsecond">#C4C4C4</color>
+
+    <color name="TurnOn">#FFEB3B</color>
+    <color name="TurnOff">#121212</color>
+
 </resources>
