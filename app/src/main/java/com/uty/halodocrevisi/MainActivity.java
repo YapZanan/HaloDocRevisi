@@ -9,10 +9,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.uty.halodocrevisi.databinding.ActivityMainBinding;
+import com.uty.halodocrevisi.ui.home.HomeLayananApotekActivity;
 import com.uty.halodocrevisi.ui.home.HomeLayananDokterActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,4 +35,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, HomeLayananDokterActivity.class);
         startActivity(intent);
     }
+
+    public void btnObat(View view) {
+        Intent intent = new Intent(MainActivity.this, HomeLayananApotekActivity.class);
+        startActivity(intent);
+    }
+
 }

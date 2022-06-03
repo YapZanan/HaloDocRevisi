@@ -22,5 +22,4 @@ public class HomeLayananDokterActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
-
 }
