@@ -13,7 +13,9 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.uty.halodocrevisi.databinding.ActivityMainBinding;
 import com.uty.halodocrevisi.ui.home.HomeLayananApotekActivity;
+import com.uty.halodocrevisi.ui.home.HomeLayananCovidActivity;
 import com.uty.halodocrevisi.ui.home.HomeLayananDokterActivity;
+import com.uty.halodocrevisi.ui.home.HomeLayananReportActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,6 +40,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnObat(View view) {
         Intent intent = new Intent(MainActivity.this, HomeLayananApotekActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnReport(View view) {
+        Intent intent = new Intent(MainActivity.this, HomeLayananReportActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnCovid(View view) {
+        Intent intent = new Intent(MainActivity.this, HomeLayananCovidActivity.class);
         startActivity(intent);
     }
 

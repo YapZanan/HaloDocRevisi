@@ -26,14 +26,20 @@
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/bg_rounded_trans.xml" value="0.167" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_home.xml" value="0.167" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_info_riwayat.xml" value="0.168" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_jam.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_laporan.xml" value="0.168" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.167" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_note.xml" value="0.168" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_notif_pembaruan.xml" value="0.167" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_pesan.xml" value="0.167" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/drawable/ic_riwayat.xml" value="0.168" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_home_layanan_apotek.xml" value="0.2" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_home_layanan_covid.xml" value="0.25416666666666665" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_home_layanan_dokter.xml" value="0.21105072463768115" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_home_layanan_dokter_detail.xml" value="0.25" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_home_layanan_report.xml" value="0.25416666666666665" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/fragment_home.xml" value="0.152" />
@@ -45,9 +51,14 @@
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_apotek.xml" value="0.253125" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_apotek_toko.xml" value="0.264" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_apotek_toko2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_covid_produk.xml" value="0.253125" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_covid_produk2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_covid_produk3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_covid_produk4.xml" value="0.25416666666666665" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_detail_exp.xml" value="0.2427536231884058" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_detail_header.xml" value="0.2427536231884058" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_detail_konfirmasi.xml" value="0.2427536231884058" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_detail_konsultasi.xml" value="0.12360688956433637" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_detail_tentang.xml" value="0.2427536231884058" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_detail_waktu.xml" value="0.2427536231884058" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_header.xml" value="0.2427536231884058" />
@@ -59,6 +70,8 @@
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_populer_grid3.xml" value="0.21105072463768115" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_dokter_search.xml" value="0.21105072463768115" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_grid.xml" value="0.264" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_report_info.xml" value="0.253125" />
+        <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_report_laporan.xml" value="0.25416666666666665" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_layanan_rv.xml" value="0.21105072463768115" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/home_search.xml" value="0.1381340579710145" />
         <entry key="..\:/Download/New folder/Android/HeyDoc3/app/src/main/res/layout/notifikasi_menu.xml" value="0.12360688956433637" />

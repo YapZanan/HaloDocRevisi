@@ -27,6 +27,7 @@
 
     <ImageButton
         android:id="@+id/ibNote"
+        android:onClick="btnReport"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
@@ -35,6 +36,7 @@
 
     <ImageButton
         android:id="@+id/ibCorona"
+        android:onClick="btnCovid"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@color/white"
