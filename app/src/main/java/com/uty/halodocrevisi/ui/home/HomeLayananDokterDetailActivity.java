@@ -21,4 +21,11 @@ public class HomeLayananDokterDetailActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void btnKonsul(View view) {
+        Intent intent = new Intent(HomeLayananDokterDetailActivity.this, PembayaranActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
 }
