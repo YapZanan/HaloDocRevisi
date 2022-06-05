@@ -17,6 +17,7 @@
 
         <ImageButton
             android:id="@+id/ibBack"
+            android:onClick="btnBack4"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@color/white"
@@ -40,8 +41,8 @@
     <ImageView
         android:id="@+id/beritaCovid"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/berita"
+        android:layout_height="wrap_content"
+        android:src="@drawable/berita_covid"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
