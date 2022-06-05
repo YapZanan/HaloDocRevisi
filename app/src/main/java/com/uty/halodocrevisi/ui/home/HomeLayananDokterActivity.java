@@ -22,4 +22,10 @@ public class HomeLayananDokterActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void btnBack1(View view) {
+        Intent intent = new Intent(HomeLayananDokterActivity.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }

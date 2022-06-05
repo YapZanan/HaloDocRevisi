@@ -6,15 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeLayananReportActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/boxTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/ibBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_panah_kiri"
+            app:layout_constraintStart_toStartOf="@id/boxTB"
+            app:layout_constraintTop_toTopOf="@id/boxTB"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laporan Kesehatan"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/ibBack"
+            app:layout_constraintTop_toTopOf="@id/boxTB"
+            app:layout_constraintBottom_toBottomOf="@id/boxTB"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <include
         android:id="@+id/infoKesehatan"
         layout="@layout/home_layanan_report_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/boxTB" />
 
     <TextView
         android:id="@+id/laporanTerakhir"
