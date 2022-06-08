@@ -9,22 +9,25 @@
         android:id="@+id/imageView5"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
         android:scaleType="fitCenter"
         android:src="@drawable/logo3"
+        app:layout_constraintBottom_toTopOf="@id/progress"
+
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/progrss"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.progressindicator.CircularProgressIndicator
-        android:id="@+id/progrss"
+    <ProgressBar
+        android:id="@+id/progress"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        style="?android:attr/progressBarStyleLarge"
+        android:layout_marginTop="120dp"
+        android:progress="@integer/material_motion_duration_long_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
