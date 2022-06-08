@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -38,24 +39,23 @@
         android:textColor="@color/ijoGakIjo"
         android:textSize="12dp" />
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/loginData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/namaPerusahaan"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="20dp"
         android:background="@drawable/login_shape"
-        android:elevation="2dp">
+        android:elevation="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
 
         <EditText
             android:id="@+id/loginEmail"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="24dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/login_edit"
             android:drawableStart="@drawable/email__"
             android:drawablePadding="10dp"
@@ -67,8 +67,12 @@
             android:paddingEnd="20dp"
             android:textColor="@color/TurnOff"
             android:textSize="16sp"
-            app:drawableTint="@color/secondarycolor" />
-
+            app:drawableTint="@color/secondarycolor"
+            app:layout_constraintBottom_toTopOf="@+id/loginPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <EditText
             android:id="@+id/loginPassword"
@@ -76,9 +80,7 @@
             android:layout_height="50dp"
             android:layout_below="@id/loginEmail"
             android:layout_centerHorizontal="true"
-            android:layout_marginStart="24dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="24dp"
             android:background="@drawable/login_edit"
             android:drawableStart="@drawable/password__"
             android:drawablePadding="10dp"
@@ -90,19 +92,29 @@
             android:paddingEnd="50dp"
             android:textColor="@color/TurnOff"
             android:textSize="16sp"
-            app:drawableTint="@color/secondarycolor" />
+            app:drawableTint="@color/secondarycolor"
+            app:layout_constraintBottom_toTopOf="@+id/loginLupaPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginEmail" />
 
         <ImageButton
             android:id="@+id/eye"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_alignBottom="@id/loginPassword"
-            android:layout_marginLeft="-68dp"
+            android:layout_marginEnd="10dp"
             android:layout_toEndOf="@id/loginPassword"
             android:background="?android:selectableItemBackground"
             android:elevation="20dp"
             android:onClick="ShowHidePass"
             android:src="@drawable/eyeopen_"
+            app:layout_constraintBottom_toBottomOf="@+id/loginPassword"
+            app:layout_constraintEnd_toEndOf="@+id/loginPassword"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/loginPassword"
+            app:layout_constraintTop_toTopOf="@+id/loginPassword"
+            app:layout_constraintVertical_bias="0.0"
             app:tint="@color/secondarycolor" />
 
         <Button
@@ -111,12 +123,17 @@
             android:layout_height="48dp"
             android:layout_below="@id/loginPassword"
             android:layout_alignEnd="@id/loginPassword"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="8dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:text="Lupa Password?"
             android:textAlignment="center"
             android:textColor="@color/TurnOff"
-            android:textSize="8sp" />
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/loginButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.817"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/loginButton"
@@ -124,32 +141,43 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/loginLupaPassword"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
 
+            android:layout_marginTop="8dp"
             android:background="@drawable/login_button"
             android:elevation="8dp"
             android:text="Login"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/loginBelumPunyaAkun"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginLupaPassword" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/loginBelumPunyaAkun"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/loginButton"
+
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="65dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:elevation="20sp"
             android:fontFamily="@font/robotomedium"
             android:text="Belum punya akun? Buat"
             android:textAllCaps="false"
             android:textColor="@color/TurnOff"
-            android:textSize="10sp" />
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton"
+            app:layout_constraintVertical_bias="1.0" />
 
 
-    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </RelativeLayout>
