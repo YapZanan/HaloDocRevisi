@@ -15,6 +15,9 @@
         android:theme="@style/Theme.HaloDocRevisi"
         tools:targetApi="31">
         <activity
+            android:name=".pesan_dalam"
+            android:exported="false" />
+        <activity
             android:name=".login.LoginActivity"
             android:exported="false" />
         <activity
