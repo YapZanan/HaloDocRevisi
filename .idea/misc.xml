@@ -22,19 +22,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Download/New folder/Android/HeyDocRevisi/app/src/main/res/drawable-v24/ic_ceklist_ijo.xml" value="0.1415" />
-        <entry key="..\:/Download/New folder/Android/HeyDocRevisi/app/src/main/res/drawable/ic_ceklist_ijo.xml" value="0.1415" />
-        <entry key="..\:/Download/New folder/Android/HeyDocRevisi/app/src/main/res/layout/pembayaran_sukses.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/drawable/garis_bawah.xml" value="0.1165" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_home_layanan_apotek.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_pesan.xml" value="0.18" />
-        <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_pesan_grid.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_pesan_dalam.xml" value="0.33" />
+        <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_pesan_dalam_header.xml" value="0.48703703703703705" />
+        <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_pesan_grid.xml" value="0.75" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_pesan_individu.xml" value="0.1" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_pesan_kumpul.xml" value="0.22" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/activity_splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/fragment_notifikasi.xml" value="0.10625" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/fragment_pesan.xml" value="0.25" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/fragment_riwayat.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/home_layanan.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/home_layanan_apotek_toko2.xml" value="0.1" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/home_layanan_grid.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/riwayat_list.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Ryzen/AndroidStudioProjects/HaloDocRevisi/app/src/main/res/layout/splashscreen.xml" value="0.25" />

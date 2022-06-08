@@ -16,6 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
         app:layout_constraintVertical_bias="0.0"
         android:background="@drawable/garis_bawah">
 
@@ -70,6 +71,32 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@id/imageBack"
             app:layout_constraintTop_toBottomOf="@id/Nama" />
+
+        <ImageButton
+            android:id="@+id/videocall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/white"
+            android:src="@drawable/videocall"
+            app:layout_constraintStart_toEndOf="@id/telepon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/boxPesanan"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:id="@+id/telepon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/telepon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/videocall"
+            app:layout_constraintStart_toEndOf="@+id/Nama"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

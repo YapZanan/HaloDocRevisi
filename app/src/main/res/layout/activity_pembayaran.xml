@@ -93,6 +93,8 @@
     </RadioGroup>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bayar"
+        android:onClick="bayardong"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
