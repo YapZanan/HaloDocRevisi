@@ -6,8 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.window.SplashScreen;
-
-import com.uty.halodocrevisi.ui.home.HomeLayananDokterActivity;
+import com.uty.halodocrevisi.login.LoginActivity;
 
 public class splashscreen extends AppCompatActivity {
 
@@ -21,7 +20,7 @@ public class splashscreen extends AppCompatActivity {
             public void run() {
 
                 //setelah loading maka akan langsung berpindah ke home activity
-                Intent home=new Intent(splashscreen.this, MainActivity.class);
+                Intent home=new Intent(splashscreen.this, LoginActivity.class);
                 startActivity(home);
                 finish();
 
